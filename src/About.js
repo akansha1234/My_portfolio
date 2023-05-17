@@ -7,8 +7,8 @@ const About = () => {
       <main className="abt">
         <div className="content">
           <p> My name is Akansha Goel. I am a front-end developer.</p>
-          <p> I love to make interactive,cool and responsive websites </p>
-          <p> Currently, I'm working in Birlasoft</p>
+          <p> I love to make interactive,cool and responsive websites. </p>
+          <p> Currently, I'm working in Birlasoft.</p>
         </div>
         <div className="education">
           <h3> Education</h3>
