@@ -6,9 +6,9 @@ const Home = () => {
       <div className="container">
         <div className="left-side">
           <p>
-            Hey, I'm <span className="name">Akansha</span>
+            Hey&#128075;, I'm <span className="name">Akansha</span>
           </p>
-          <p>a front-end developer.</p>
+          <p>a front-end developer 💻.</p>
           <div className="btn-grp">
             <button className="work-button">
               <a href="#work-page">See my work </a>

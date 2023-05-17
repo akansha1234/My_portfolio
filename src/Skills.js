@@ -2,9 +2,9 @@ import React from "react";
 import Html from "./images/html.svg";
 import Css from "./images/css.svg";
 import Javascript from "./images/javascript.svg";
-import Jquery from "./images/jquery.svg";
+import angular from "./images/angular.svg";
 import react from "./images/react.svg";
-import Sass from "./images/sass.svg";
+import redux from "./images/redux.svg";
 import Api from "./images/api.svg";
 import Git from "./images/git.svg";
 import Firebase from "./images/firebase.svg";
@@ -17,9 +17,9 @@ const Skills = () => {
         <Skill techno={Html} language="HTML5" />
         <Skill techno={Css} language="CSS3" />
         <Skill techno={Javascript} language="Javascript" />
-        <Skill techno={Jquery} language="Jquery" />
         <Skill techno={react} language="React" />
-        <Skill techno={Sass} language="Sass" />
+        <Skill techno={redux} language="Redux" />
+        <Skill techno={angular} language="Angular" />
         <Skill techno={Api} language="Rest Api" />
         <Skill techno={Git} language="Git" />
         <Skill techno={Firebase} language="Firebase" />
