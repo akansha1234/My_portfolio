@@ -72,6 +72,9 @@
 .name {
   color: #ef2844;
 }
+.position {
+  border-bottom: 3px solid #ef2844;
+}
 .work-button {
   margin-top: 25px;
   outline: none;

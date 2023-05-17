@@ -6,7 +6,8 @@ const Contact = () => {
   const [message, setMessage] = useState("");
   const [error, setError] = useState({ name: " ", email: " ", message: " " });
   const validateEmail = (email) => {
-    const regexp = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    const regexp =
+      /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return regexp.test(email);
   };
   const handleSubmit = (e) => {
@@ -14,37 +15,37 @@ const Contact = () => {
     if (name === "") {
       setError((prevState) => ({
         ...prevState,
-        name: "Please fill your name"
+        name: "Please fill your name",
       }));
       return;
     } else {
       setError((prevState) => ({
         ...prevState,
-        name: " "
+        name: " ",
       }));
     }
     if (!validateEmail(email)) {
       setError((prevState) => ({
         ...prevState,
-        email: "Please fill your email correctly"
+        email: "Please fill your email correctly",
       }));
       return;
     } else {
       setError((prevState) => ({
         ...prevState,
-        email: " "
+        email: " ",
       }));
     }
     if (message === "") {
       setError((prevState) => ({
         ...prevState,
-        message: "Please write your message"
+        message: "Please write your message",
       }));
       return;
     } else {
       setError((prevState) => ({
         ...prevState,
-        message: " "
+        message: " ",
       }));
     }
 
@@ -72,7 +73,7 @@ const Contact = () => {
   };
   return (
     <div className="contact" id="contact-page">
-      <h2 className="heading"> Let's Connect </h2>
+      <h2 className="heading"> Let's Connect☕</h2>
       <form className="form" onSubmit={handleSubmit}>
         <input
           type="text"
