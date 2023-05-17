@@ -206,7 +206,7 @@
   object-fit: contain;
 }
 .right-project {
-  flex: 0 1 calc(100%, -350px);
+  flex: 0 1 calc(100% -350px);
   margin-left: 25px;
   display: grid;
 }
