@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.24cd1863.chunk.css",
+    "main.js": "/static/js/main.f34bbf8d.chunk.js",
+    "main.js.map": "/static/js/main.f34bbf8d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.90e3fbc8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.90e3fbc8.js.map",
+    "static/js/2.e5093d24.chunk.js": "/static/js/2.e5093d24.chunk.js",
+    "static/js/2.e5093d24.chunk.js.map": "/static/js/2.e5093d24.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.24cd1863.chunk.css.map": "/static/css/main.24cd1863.chunk.css.map",
+    "static/js/2.e5093d24.chunk.js.LICENSE.txt": "/static/js/2.e5093d24.chunk.js.LICENSE.txt",
+    "static/media/Book-store.636b552a.png": "/static/media/Book-store.636b552a.png",
+    "static/media/Budget.aa221717.png": "/static/media/Budget.aa221717.png",
+    "static/media/Code-editor.831002e3.png": "/static/media/Code-editor.831002e3.png",
+    "static/media/angular.230cf8a0.svg": "/static/media/angular.230cf8a0.svg",
+    "static/media/api.a9634b75.svg": "/static/media/api.a9634b75.svg",
+    "static/media/css.2f489abe.svg": "/static/media/css.2f489abe.svg",
+    "static/media/firebase.276e1103.svg": "/static/media/firebase.276e1103.svg",
+    "static/media/git.c60b7e5a.svg": "/static/media/git.c60b7e5a.svg",
+    "static/media/html.bff21c24.svg": "/static/media/html.bff21c24.svg",
+    "static/media/javascript.07314975.svg": "/static/media/javascript.07314975.svg",
+    "static/media/pic.16bea277.jpg": "/static/media/pic.16bea277.jpg",
+    "static/media/react.e68b35f4.svg": "/static/media/react.e68b35f4.svg",
+    "static/media/redux.e28b8e84.svg": "/static/media/redux.e28b8e84.svg",
+    "static/media/sleep-tracker.266cb8c1.png": "/static/media/sleep-tracker.266cb8c1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90e3fbc8.js",
+    "static/js/2.e5093d24.chunk.js",
+    "static/css/main.24cd1863.chunk.css",
+    "static/js/main.f34bbf8d.chunk.js"
+  ]
+}
