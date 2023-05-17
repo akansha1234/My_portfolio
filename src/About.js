@@ -6,12 +6,9 @@ const About = () => {
       <h2 className="heading">About me</h2>
       <main className="abt">
         <div className="content">
-          <p>
-            {" "}
-            My name is Akansha Goel. I am a self taught front-end developer
-          </p>
-          <p> I love to make interactive,cool and responsive websites </p>
-          <p> Currently, I'm working in Birlasoft</p>
+          <p> My name is Akansha Goel. I am a front-end developer.</p>
+          <p> I love to make interactive,cool and responsive websites. </p>
+          <p> Currently, I'm working in Birlasoft.</p>
         </div>
         <div className="education">
           <h3> Education</h3>
